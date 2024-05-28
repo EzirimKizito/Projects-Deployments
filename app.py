@@ -6,7 +6,7 @@ import tensorflow as tf
 from tensorflow.keras.models import load_model
 
 # Load the trained model
-model_path = "/content/drive/MyDrive/Datasets/David/Deployment/cnn_lstm_model.h5"
+model_path = "cnn_lstm_model.h5"  
 model = load_model(model_path)
 
 # Define the input fields
